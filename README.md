@@ -3,6 +3,10 @@
 ```
 docker-compose up -d
 ```
+### To list all services
+```
+docker-compose ps
+```
 ### To run the KsqlDB server
 ```
 docker exec -it ksqldb-server ksql http://localhost:8088
